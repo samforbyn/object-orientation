@@ -9,7 +9,6 @@ const me = {
   name: "Samuel",
   age: 21
 
-
 }
 
 
@@ -102,7 +101,6 @@ const {color: newColor, make: newMake, model: newModel, year: newYear} = carDeta
 
 console.log(newColor, newMake, newModel, newYear)
 
-
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
 /*
@@ -141,7 +139,7 @@ console.log(newGreet)
 //Code Here
 function totalPopulation(obj){
   const {utah: newUtah, california: newCalifornia, texas: newTexas, arizona: newArizona} = obj
-totalNumber = newUtah + newCalifornia + newTexas + newArizona
+let totalNumber = newUtah + newCalifornia + newTexas + newArizona
 console.log(totalNumber)
 }
 
@@ -167,7 +165,7 @@ let stateTest = totalPopulation(states)
 //Code Here
 function ingredients(obj){
   const {carb: newCarb, fat: newFat, protein: newProtein} = obj
-  newArr = []
+  let newArr = []
   newArr.push(newCarb, newFat, newProtein)
   return newArr
 }
