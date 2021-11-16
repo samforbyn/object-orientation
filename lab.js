@@ -481,23 +481,24 @@ class Boat extends Vehicle  {
   checkSeaworthiness(){
     if(this.isSeaworthy){
       console.log(`The ${this.color} ${this.type} ${this.name} is seaworthy!`)
-    }else{
+    }else {
       console.log(`You need to get your ${this.type} in shape!`)
     }
+    
   }
 
   performMaintenance(){
     this.isSeaworthy = true
   }
 }
-
 /*
-  Create a new boat using your class. You can choose whatever values you like for all the 
-  properties except isSeaworthy -- make that one false. Call your variable myFirstBoat.
+Create a new boat using your class. You can choose whatever values you like for all the 
+properties except isSeaworthy -- make that one false. Call your variable myFirstBoat.
 */
 
 //Code Here
-const myFirstBoat = new Boat(66, "chartreuse", 500, "S.S.Studder", "yacht", false)
+const myFirstBoat = new Boat(66, "chartreuse", 500, "S.S.Stutter", "yacht", false)
+
 /*
   Call the checkSeaworthiness method on your new boat
 */
